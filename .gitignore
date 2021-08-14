@@ -1,0 +1,5 @@
+# Build directories
+_site/
+.jekyll-cache/
+# Vi cache
+*.swp

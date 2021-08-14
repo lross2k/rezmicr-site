@@ -1,0 +1,159 @@
+* {
+  color: #fff;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #181818;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+  height: 100%;
+  padding: 20px;
+  width: auto;
+}
+
+.footer {
+  background-color: #333;
+  margin: 20px 0px 0px 0px;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.post-list {
+  list-style-type: disclosure-closed;
+}
+
+.post-list li {
+  text-align: left;
+}
+
+.rangos {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row; 
+  text-align: left;
+}
+
+.donate-img {
+  max-width: 300px;
+}
+
+@media (max-width: 580px) {
+  .rangos {
+    flex-direction: column;
+  } 
+
+  .donate-img {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 700px) {
+  .donate-img {
+    max-width: 200px;
+  }
+}
+
+.rangos li {
+  background-color: #333;
+  margin: 5px;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.rangos h2 {
+  margin: 0px;
+  padding: 9px 0px 9px 0px;
+  border-radius: 5px;
+  background-color: #34E2E2;
+  text-align: center;
+  color: #000;
+}
+
+.centered {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.centered h3, p {
+  margin: 5px;
+}
+
+.rangos h3 {
+  margin: 10px 0px 10px 5px;
+}
+
+ul.beneficios {
+  padding: 0px 0px 0px 25px;
+}
+
+.beneficios {
+  list-style-type: disclosure-closed;
+}
+
+.navbar {
+  padding: 0px 0px 10px 0px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+}
+
+nav li a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+nav {
+  display: inline;
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+
+a {
+  text-decoration: none;
+}
+
+.start {
+  background-color: #34E2E2;
+  color: #000;
+  margin: 0;
+  padding: 14px 16px;
+}
+
+.start:hover {
+  background-color: #1DB0B0;
+
+form {
+  padding: 10px;
+}
+
