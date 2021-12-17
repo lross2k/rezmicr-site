@@ -23,6 +23,18 @@ body {
   margin: 20px 0px 0px 0px;
 }
 
+p {
+    padding: 1rem;
+}
+
+.footer a {
+   margin: 1vw;
+}
+
+.footer ul {
+    padding: 1vw;
+}
+
 .wrapper {
   flex: 1 0 auto;
 }
